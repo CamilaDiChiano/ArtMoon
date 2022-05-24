@@ -6,6 +6,17 @@
     padding: opx;
 }
 
+@media (min-width: 576px) { 
+
+ }
+
+ @media (min-width: 768px){
+
+ }
+
+ 
+
+
 
 
 body {
@@ -334,12 +345,6 @@ grid-template-rows: auto auto;
     justify-content: center;
 }
 
-.art {
-    width: 500px;
-    height: 450px;
-    padding: 20px;
-}
-
 
 .titulo {
     background-color: whitesmoke;
@@ -353,6 +358,7 @@ grid-template-rows: auto auto;
 
 .artistas {
     text-align: center;
+    background-color: darkgray;
     font-size: 20px;
 }
 
@@ -360,8 +366,8 @@ grid-template-rows: auto auto;
 
 .center {
     width: auto;
-    height: 50px;
-    border: 5px;
+    height: 70px;
+    border: 2px;
     text-align: center;
     border: 2px solid black;
 }
