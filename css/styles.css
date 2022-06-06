@@ -1,294 +1,174 @@
+@charset "UTF-8";
 * {
-    margin: 0px;
-    padding: opx;
-}
-
-@media (min-width: 576px) {}
-
-@media (min-width: 768px) {}
-
+  margin: 0px;
+  padding: opx; }
 
 body {
-    background-color: darkgray;
+  background-color: darkgray;
+  height: 800px;
+  padding: 5px; }
 
-    @font-face {
-        font-family: sagittaria;
-        src: url(../fonts/sagittaria\ FREE.ttf);
-    }
-
-    height: 800px;
-    padding: 5px;
-}
+@font-face {
+  body {
+    font-family: sagittaria;
+    src: url("../fonts/sagittaria FREE.ttf"); } }
 
 /* Tipo de fuente */
-
-
-
-
-
-
-
-
-
 /* artista */
-
 header {
-    background-color: whitesmoke;
-    width: auto;
-    height: 50px;
-    padding: 20px;
-    text-align: center;
-}
+  background-color: whitesmoke;
+  width: auto;
+  height: 50px;
+  padding: 20px;
+  text-align: center; }
 
 /* titulo*/
-
-
-
 .menu nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px;
-}
+  float: left;
+  list-style: none;
+  margin: 10px; }
 
 /* menu de la pagina*/
-
 nav {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    height: 50px;
-}
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  height: 50px; }
 
 /* fondo del menu de la pagina*/
-
-
 img {
-    height: 300px;
-    padding: 10px;
-}
+  height: 300px;
+  padding: 10px; }
 
 /* tamaño de imagenes*/
-
-
 .biografiaa {
-    grid-column: 2/3;
-    float: right;
-    height: 480px;
-    background-color: lightslategrey;
-    padding: 10px;
-
-}
+  grid-column: 2/3;
+  float: right;
+  height: 480px;
+  background-color: lightslategrey;
+  padding: 10px; }
 
 /*fondo de la biografia*/
-
-
 .biografia {
-    width: 300px;
-    height: 110px;
-    padding: 20px;
-}
+  width: 300px;
+  height: 110px;
+  padding: 20px; }
 
 /*texto de la biografia*/
-
-
 h2 {
-    grid-column: 1/3;
-    background-color: lightslategrey;
-    width: 200px;
-    width: 400px;
-    padding: 20px;
-    text-align: left;
-}
+  grid-column: 1/3;
+  background-color: lightslategrey;
+  width: 200px;
+  width: 400px;
+  padding: 20px;
+  text-align: left; }
 
 /*titulo obras*/
-
-
 footer {
-
-    display: inline;
-    float: right;
-}
-
-
-
-
-
-
-
-
+  display: inline;
+  float: right; }
 
 @media (min-width: 576px) {
-
-    .biografiaa {
-        height: 480px;
-        background-color: lightslategrey;
-        padding: 10px;
-    }
-
-    .obravangogh {
-        flex-direction: row;
-
-    }
-
-    .vg {
-        text-align: center;
-    }
-
-}
-
-
-
-
-
-
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px; }
+  .obravangogh {
+    flex-direction: row; }
+  .vg {
+    text-align: center; } }
 
 /* van gogh */
-
 .obravangogh {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-
-}
-
-
-
-
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin: 10px; }
 
 /* klimt */
-
 .obraklimt {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-}
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin: 10px; }
 
 .k {
-    padding: 10px;
-}
-
-
-
+  padding: 10px; }
 
 /* basquiat */
-
 .obrabasquiat {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-}
-
-
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin: 10px; }
 
 /* picasso */
-
 .obrapicasso {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-}
-
-
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin: 10px; }
 
 /* munch */
-
 .obramunch {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-}
-
-
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin: 10px; }
 
 /* da vinci */
-
 .obradavinci {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    margin: 10px;
-
-}
-
-
-
-
-
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  margin: 10px; }
 
 /*index*/
-
-
 @media (max-width: 576px) {
-    .h2 {
-        text-align: center;
-        height: auto;
-        width: auto;
-    }
-
-    .pagina {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
-        grid-column: 2/3;
-        float: right;
-        text-align: center;
-        font-size: 60px;
-        padding: 100px;
-    }
-
-    /* .moon {
+  .h2 {
+    text-align: center;
+    height: auto;
+    width: auto; }
+  .pagina {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column: 2/3;
+    float: right;
+    text-align: center;
+    font-size: 60px;
+    padding: 100px; }
+  /* .moon {
         grid-column: 2/3;
         grid-row: 1/2;
         height: 20px;
         margin: 80px;
         transform: rotate(90deg)
-    } */
-
-}
-
+    } */ }
 
 .h2 {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    background-color: lightslategrey;
-    height: auto;
-
-}
-
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightslategrey;
+  height: auto; }
 
 .paginadeinicio {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    /* height: 250px; */
-    padding: 5px;
-}
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  /* height: 250px; */
+  padding: 5px; }
 
 /*toda la pagina*/
-
-
 .pagina {
-    grid-column: 4/5;
-    float: right;
-    text-align: center;
-    font-size: 60px;
-    padding: 100px;
-}
+  grid-column: 4/5;
+  float: right;
+  text-align: center;
+  font-size: 60px;
+  padding: 100px; }
 
 /*titulo*/
-
-
 /* .moon {
     grid-column: 4/5;
     grid-row: 2/2;
@@ -296,276 +176,209 @@ footer {
     margin: 80px;
     transform: rotate(90deg)
 } */
-
-
 .menudenavegacion ul li {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    height: 20px;
-    width: 150px;
-    font-size: 20px;
-}
+  grid-column: 2/3;
+  grid-row: 2/3;
+  height: 20px;
+  width: 150px;
+  font-size: 20px; }
 
 /*menu*/
-
 .navegacion {
-    width: 400px;
-    height: 280px;
-
-}
+  width: 400px;
+  height: 280px; }
 
 /*bloque del menu*/
-
-
-
-
-
-
-
-
-
-
-
 /*seleccion de artista*/
-
-
-
-
-
 .gridseleccion {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    height: auto;
-    width: auto;
-    background-color: darkgray;
-}
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background-color: darkgray; }
 
 .titulo {
-    background-color: whitesmoke;
-    width: auto;
-    padding: 20px;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
+  background-color: whitesmoke;
+  width: auto;
+  padding: 20px;
+  text-align: center; }
 
 /*contacto*/
-
 .descripcion {
-    padding: 15px;
-}
+  padding: 15px; }
 
 .indicacion {
-    padding: 10px;
-}
-
-
-
-
-
-
-
-
-
-
+  padding: 10px; }
 
 /*obras destacadas*/
+@media (max-width: 576px) {
+  .gridobran {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobram {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobrau {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobrag {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobraeln {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobragr {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobraeb {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .gridobrac {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+  .obrasimga {
+    justify-content: center; }
+  .obrasimgb {
+    justify-content: center; } }
 
 .gridobran {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: left;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: left; }
 
 .gridobram {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: right;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: right; }
 
 .gridobrau {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: left;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: left; }
 
 .gridobrag {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: right;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: right; }
 
 .gridobraeln {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: left;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: left; }
 
 .gridobragr {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: right;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: right; }
 
 .gridobraeb {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: left;
-}
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: left; }
 
 .gridobrac {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: right;
-}
-
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: right; }
 
 .a {
-    width: 1300px;
-    height: 300px;
-    justify-content: right;
-
-}
+  width: 1300px;
+  height: 300px;
+  justify-content: right; }
 
 /*texto de la derecha*/
-
 .b {
-    width: 1200px;
-    height: 300px;
-    justify-content: left;
-}
+  width: 1200px;
+  height: 300px;
+  justify-content: left; }
 
 /*texto de la izquierda*/
-
-
 .nocheestrellada {
-    height: 400px;
-    width: 1200px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 1200px;
+  padding: 10px; }
 
 /*bloque*/
-
-
 .imgnocheestrellada {
-    float: left;
-}
+  float: left; }
 
 /*imagen*/
-
-
 .monalisa {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 800px;
+  padding: 10px; }
 
 /*bloque*/
-
-
 .imgmonalisa {
-    float: right;
-}
+  float: right; }
 
 /*imagen*/
-
-
 .ultimacena {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 800px;
+  padding: 10px; }
 
 /*bloque*/
-
 .imgcena {
-    float: left;
-}
+  float: left; }
 
 /*imagen*/
-
-
 .guernica {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 800px;
+  padding: 10px; }
 
 /*bloque*/
-
 .imgguernica {
-    float: right;
-}
+  float: right; }
 
 /*imagen*/
-
-
 .elnacimiento {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 800px;
+  padding: 10px; }
 
 /*bloque*/
-
 .imgnacimiento {
-    float: left;
-}
+  float: left; }
 
 /*imagen*/
-
 .grito {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 800px;
+  padding: 10px; }
 
 /*bloque*/
-
 .imggrito {
-    float: right;
-}
+  float: right; }
 
 /*imagen*/
-
-
 .elbeso {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 800px;
+  padding: 10px; }
 
 /*bloque*/
-
 .imgbeso {
-    float: left;
-}
+  float: left; }
 
 /*imagen*/
-
 .creacion {
-    height: 400px;
-    width: 1100px;
-    padding: 10px;
-}
+  height: 400px;
+  width: 1100px;
+  padding: 10px; }
 
 /*bloque*/
-
 .imgcreacion {
-    float: right;
-}
+  float: right; }
 
 /*imagen*/

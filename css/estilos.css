@@ -26,6 +26,10 @@ body {
 
 
 
+
+
+
+
 /* artista */
 
 header {
@@ -326,8 +330,6 @@ footer {
 
 
 
-@media (min-width: 576px) {}
-
 
 
 .gridseleccion {
@@ -376,78 +378,6 @@ footer {
 
 
 /*obras destacadas*/
-
-
-@media (max-width: 576px) {
-
-    .gridobran {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobram {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobrau {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobrag {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobraeln {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobragr {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobraeb {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .gridobrac {
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-    }
-
-    .obrasimga{
-        justify-content: center;
-    }
-
-    .obrasimgb{
-        justify-content: center;
-    }
-   
-
-}
-
-
-// .obrasimgb{
-// float: left;
-// }
-
-// .obrasimga{
-
-//     float: right;
-// }
 
 .gridobran {
     display: grid;

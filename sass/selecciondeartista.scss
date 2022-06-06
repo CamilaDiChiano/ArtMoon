@@ -1,0 +1,29 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/*seleccion de artista*/
+
+
+
+@media (min-width: 576px) {}
+
+
+
+.gridseleccion {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    background-color: darkgray;
+}
+
+.titulo {
+    background-color: whitesmoke;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
