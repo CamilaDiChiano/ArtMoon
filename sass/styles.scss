@@ -428,214 +428,143 @@ footer {
         padding: 30px;
     }
 
-    .obrasimga{
+    .obrasimga {
         justify-content: center;
     }
 
-    .obrasimgb{
+    .obrasimgb {
         justify-content: center;
     }
-   
+
 
 }
 
+.gridtodaslasobras {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    margin: 5px;
+}
 
-// .obrasimgb{
-// float: left;
-// }
-
-// .obrasimga{
-
-//     float: right;
-// }
 
 .gridobran {
-    display: grid;
-
-    grid-template-rows: auto;
+    margin: 10px;
     justify-content: left;
+
+    .nocheestrellada {
+        
+        padding: 10px;
+    }
+
+    /*bloque*/
+
 }
 
 .gridobram {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: right;
+    margin: 10px;
+    justify-content: left;
+
+    .monalisa {
+        // height: 400px;
+        // width: 600px;
+        padding: 10px;
+    }
+
+    /*bloque*/
+
+
+    .imgmonalisa {
+        float: left;
+    }
+
+    /*imagen*/
 }
 
 .gridobrau {
-    display: grid;
-    grid-template-rows: auto;
+
+    margin: 10px;
+
     justify-content: left;
+
+    .ultimacena {
+        // height: 400px;
+        // width: 800px;
+        padding: 10px;
+    }
+
+    /*bloque*/
 }
 
 .gridobrag {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: right;
+    margin: 10px;
+    justify-content: left;
+
+    .guernica {
+        // height: 400px;
+        // width: 800px;
+        padding: 10px;
+    }
+
+    /*bloque*/
 }
 
 .gridobraeln {
-    display: grid;
-
-    grid-template-rows: auto;
+    margin: 10px;
     justify-content: left;
+
+    .elnacimiento {
+        // height: 400px;
+        // width: 800px;
+        padding: 10px;
+    }
+
+    /*bloque*/
 }
 
 .gridobragr {
-    display: grid;
+    margin: 10px;
+    justify-content: left;
 
-    grid-template-rows: auto;
-    justify-content: right;
+    .grito {
+        // height: 400px;
+        // width: 800px;
+        padding: 10px;
+    }
+
+    /*bloque*/
 }
 
 .gridobraeb {
-    display: grid;
-
-    grid-template-rows: auto;
+    margin: 10px;
     justify-content: left;
+
+    .elbeso {
+        // height: 400px;
+        // width: 800px;
+        padding: 10px;
+    }
+
+    /*bloque*/
 }
 
 .gridobrac {
-    display: grid;
+    margin: 10px;
+    justify-content: left;
 
-    grid-template-rows: auto;
-    justify-content: right;
+    .creacion {
+        // height: 400px;
+        // width: 1100px;
+        padding: 10px;
+    }
+
+    /*bloque*/
 }
 
 
 .a {
-    width: 1300px;
-    height: 300px;
-    justify-content: right;
-
+   
+    margin: 5px;
+    flex-direction: column;
 }
 
-/*texto de la derecha*/
-
-.b {
-    width: 1200px;
-    height: 300px;
-    justify-content: left;
-}
-
-/*texto de la izquierda*/
-
-
-.nocheestrellada {
-    height: 400px;
-    width: 1200px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-
-.imgnocheestrellada {
-    float: left;
-}
-
-/*imagen*/
-
-
-.monalisa {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-
-.imgmonalisa {
-    float: right;
-}
-
-/*imagen*/
-
-
-.ultimacena {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-.imgcena {
-    float: left;
-}
-
-/*imagen*/
-
-
-.guernica {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-.imgguernica {
-    float: right;
-}
-
-/*imagen*/
-
-
-.elnacimiento {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-.imgnacimiento {
-    float: left;
-}
-
-/*imagen*/
-
-.grito {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-.imggrito {
-    float: right;
-}
-
-/*imagen*/
-
-
-.elbeso {
-    height: 400px;
-    width: 800px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-.imgbeso {
-    float: left;
-}
-
-/*imagen*/
-
-.creacion {
-    height: 400px;
-    width: 1100px;
-    padding: 10px;
-}
-
-/*bloque*/
-
-.imgcreacion {
-    float: right;
-}
-
-/*imagen*/
+/*texto*/

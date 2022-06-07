@@ -2,9 +2,7 @@
 
 
 .gridobran {
-    display: grid;
-
-    grid-template-rows: auto;
+    
     justify-content: left;
 
     .nocheestrellada {
@@ -26,9 +24,8 @@
 }
 
 .gridobram {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: right;
+    
+    justify-content: left;
 
     .monalisa {
         height: 400px;
@@ -40,15 +37,14 @@
 
 
     .imgmonalisa {
-        float: right;
+        float: left;
     }
 
     /*imagen*/
 }
 
 .gridobrau {
-    display: grid;
-    grid-template-rows: auto;
+    
     justify-content: left;
 
     .ultimacena {
@@ -67,9 +63,8 @@
 }
 
 .gridobrag {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: right;
+    
+    justify-content: left;
 
     .guernica {
         height: 400px;
@@ -80,15 +75,14 @@
     /*bloque*/
 
     .imgguernica {
-        float: right;
+        float: left;
     }
 
     /*imagen*/
 }
 
 .gridobraeln {
-    display: grid;
-    grid-template-rows: auto;
+   
     justify-content: left;
 
     .elnacimiento {
@@ -107,10 +101,8 @@
 }
 
 .gridobragr {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: right;
+    
+    justify-content: left;
 
     .grito {
         height: 400px;
@@ -121,16 +113,14 @@
     /*bloque*/
 
     .imggrito {
-        float: right;
+        float: left;
     }
 
     /*imagen*/
 }
 
 .gridobraeb {
-    display: grid;
-
-    grid-template-rows: auto;
+   
     justify-content: left;
 
     .elbeso {
@@ -149,10 +139,7 @@
 }
 
 .gridobrac {
-    display: grid;
-
-    grid-template-rows: auto;
-    justify-content: right;
+    justify-content: left;
 
     .creacion {
         height: 400px;
@@ -163,7 +150,7 @@
     /*bloque*/
 
     .imgcreacion {
-        float: right;
+        float: left;
     }
 
     /*imagen*/
@@ -178,11 +165,3 @@
 }
 
 /*texto de la derecha*/
-
-.b {
-    width: 1200px;
-    height: 300px;
-    justify-content: left;
-}
-
-// texto de la izquierda
