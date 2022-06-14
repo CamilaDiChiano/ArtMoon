@@ -3,11 +3,6 @@
     padding: opx;
 }
 
-@media (min-width: 576px) {}
-
-@media (min-width: 768px) {}
-
-
 body {
     background-color: darkgray;
 
@@ -108,32 +103,7 @@ footer {
 
 
 
-
-
-
-
-
-@media (min-width: 576px) {
-
-    .biografiaa {
-        height: 480px;
-        background-color: lightslategrey;
-        padding: 10px;
-    }
-
-    .obravangogh {
-        flex-direction: row;
-
-    }
-
-    .vg {
-        text-align: center;
-    }
-
-}
-
-
-
+// -------------------------------------------------------------------------------------------
 
 
 
@@ -148,7 +118,38 @@ footer {
 
 }
 
+@media (max-width: 576px) {
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        margin-left: 40px;
+        align-content: center;
+    }
 
+    .bio {
+        margin-left: 60px;
+    }
+
+    .ob h2 {
+        text-align: center;
+    }
+
+
+    .obravangogh {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+        margin-left: 20px;
+
+    }
+}
 
 
 
@@ -160,10 +161,34 @@ footer {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
     margin: 10px;
+
+    .k {
+        padding: 10px;
+
+    }
 }
 
-.k {
-    padding: 10px;
+
+@media (max-width: 576px) {
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
+    }
+
+    .obraklimt {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+
+    }
 }
 
 
@@ -178,6 +203,29 @@ footer {
     margin: 10px;
 }
 
+@media (max-width: 576px) {
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
+    }
+
+    .obrabasquiat {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+
+    }
+}
+
+
 
 
 
@@ -190,7 +238,30 @@ footer {
     margin: 10px;
 }
 
+@media (max-width: 576px) {
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
 
+    }
+
+
+
+    .obrapicasso {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+
+    }
+}
 
 
 /* munch */
@@ -202,6 +273,27 @@ footer {
     margin: 10px;
 }
 
+@media (max-width: 576px) {
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
+    }
+
+    .obramunch {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+
+    }
+}
 
 
 
@@ -215,13 +307,36 @@ footer {
 
 }
 
+@media (max-width: 576px) {
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
+    }
+
+    .obradavinci {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+
+    }
+}
 
 
 
+// ----------------------------------------------------------------------------------------------------------------------------
 
 
 
 /*index*/
+
 
 
 @media (max-width: 576px) {
@@ -314,10 +429,7 @@ footer {
 
 
 
-
-
-
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -348,10 +460,7 @@ footer {
 
 
 
-
-
-
-
+// -----------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -367,12 +476,7 @@ footer {
 
 
 
-
-
-
-
-
-
+// -------------------------------------------------------------------------------------------------------------------------------------
 
 
 /*obras destacadas*/
@@ -383,57 +487,63 @@ footer {
     .gridobran {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobram {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobrau {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobrag {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobraeln {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobragr {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobraeb {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .gridobrac {
         display: flex;
         flex-direction: row;
-        padding: 30px;
+
     }
 
     .obrasimga {
         justify-content: center;
+        display: grid;
+        grid-row: none;
+        margin-left: 20px;
     }
 
     .obrasimgb {
         justify-content: center;
+        display: grid;
+        grid-row: none;
+        margin-left: 20px;
     }
 
 
@@ -441,7 +551,7 @@ footer {
 
 .gridtodaslasobras {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     margin: 5px;
 }
@@ -452,7 +562,7 @@ footer {
     justify-content: left;
 
     .nocheestrellada {
-        
+
         padding: 10px;
     }
 
@@ -562,7 +672,7 @@ footer {
 
 
 .descripcion {
-   
+
     margin: 5px;
     flex-direction: column;
 }

@@ -68,16 +68,6 @@ footer {
   display: inline;
   float: right; }
 
-@media (min-width: 576px) {
-  .biografiaa {
-    height: 480px;
-    background-color: lightslategrey;
-    padding: 10px; }
-  .obravangogh {
-    flex-direction: row; }
-  .vg {
-    text-align: center; } }
-
 /* van gogh */
 .obravangogh {
   display: grid;
@@ -85,15 +75,48 @@ footer {
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
 
+@media (max-width: 576px) {
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 3px;
+    margin-left: 40px;
+    align-content: center; }
+  .bio {
+    margin-left: 60px; }
+  .ob h2 {
+    text-align: center; }
+  .obravangogh {
+    flex-direction: row;
+    float: left; }
+  .k {
+    display: grid;
+    grid-row: none;
+    margin-left: 20px; } }
+
 /* klimt */
 .obraklimt {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+  .obraklimt .k {
+    padding: 10px; }
 
-.k {
-  padding: 10px; }
+@media (max-width: 576px) {
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 3px;
+    float: left; }
+  .obraklimt {
+    flex-direction: row;
+    float: left; }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /* basquiat */
 .obrabasquiat {
@@ -102,12 +125,40 @@ footer {
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
 
+@media (max-width: 576px) {
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 3px;
+    float: left; }
+  .obrabasquiat {
+    flex-direction: row;
+    float: left; }
+  .k {
+    display: grid;
+    grid-row: none; } }
+
 /* picasso */
 .obrapicasso {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+@media (max-width: 576px) {
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 3px;
+    float: left; }
+  .obrapicasso {
+    flex-direction: row;
+    float: left; }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /* munch */
 .obramunch {
@@ -116,12 +167,40 @@ footer {
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
 
+@media (max-width: 576px) {
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 3px;
+    float: left; }
+  .obramunch {
+    flex-direction: row;
+    float: left; }
+  .k {
+    display: grid;
+    grid-row: none; } }
+
 /* da vinci */
 .obradavinci {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+@media (max-width: 576px) {
+  .biografiaa {
+    height: 480px;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin-top: 3px;
+    float: left; }
+  .obradavinci {
+    flex-direction: row;
+    float: left; }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /*index*/
 @media (max-width: 576px) {
@@ -215,40 +294,38 @@ footer {
 @media (max-width: 576px) {
   .gridobran {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobram {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobrau {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobrag {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobraeln {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobragr {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobraeb {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .gridobrac {
     display: flex;
-    flex-direction: row;
-    padding: 30px; }
+    flex-direction: row; }
   .obrasimga {
-    justify-content: center; }
+    justify-content: center;
+    display: grid;
+    grid-row: none;
+    margin-left: 20px; }
   .obrasimgb {
-    justify-content: center; } }
+    justify-content: center;
+    display: grid;
+    grid-row: none;
+    margin-left: 20px; } }
 
 .gridtodaslasobras {
   display: grid;
