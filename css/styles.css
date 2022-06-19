@@ -4,16 +4,13 @@
   padding: opx; }
 
 body {
-  background-color: darkgray;
-  height: 800px;
-  padding: 5px; }
+  background-color: darkgray; }
 
 @font-face {
   body {
     font-family: sagittaria;
     src: url("../fonts/sagittaria FREE.ttf"); } }
 
-/* Tipo de fuente */
 /* artista */
 header {
   background-color: whitesmoke;
@@ -32,7 +29,7 @@ header {
 nav {
   background-color: black;
   color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   height: 50px; }
 
 /* fondo del menu de la pagina*/
@@ -64,10 +61,6 @@ h2 {
   text-align: left; }
 
 /*titulo obras*/
-footer {
-  display: inline;
-  float: right; }
-
 /* van gogh */
 .obravangogh {
   display: grid;
@@ -83,8 +76,6 @@ footer {
     margin-top: 3px;
     margin-left: 40px;
     align-content: center; }
-  .bio {
-    margin-left: 60px; }
   .ob h2 {
     text-align: center; }
   .obravangogh {
@@ -225,14 +216,18 @@ footer {
         transform: rotate(90deg)
     } */ }
 
-.h2 {
+.index {
+  background-image: url(../img/fondo.jpg); }
+
+.h5 {
   text-align: center;
+  font-size: large;
   padding: 10px;
-  margin: 10px;
-  background-color: lightslategrey;
-  height: auto; }
+  color: #495a97;
+  background-color: black; }
 
 .paginadeinicio {
+  color: white;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto;
@@ -248,34 +243,41 @@ footer {
   padding: 100px; }
 
 /*titulo*/
-/* .moon {
-    grid-column: 4/5;
-    grid-row: 2/2;
-    height: 20px;
-    margin: 80px;
-    transform: rotate(90deg)
-} */
 .menudenavegacion ul li {
   grid-column: 2/3;
   grid-row: 2/3;
-  height: 20px;
-  width: 150px;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  list-style: none; }
 
 /*menu*/
-.navegacion {
-  width: 400px;
-  height: 280px; }
-
-/*bloque del menu*/
 /*seleccion de artista*/
+@media (min-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
+  .gridseleccion {
+    justify-content: center;
+    height: auto;
+    width: auto;
+    background-color: darkgray; }
+  .slide img {
+    height: 300px;
+    width: 300px; } }
+
 .gridseleccion {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
-  height: auto;
+  height: 500px;
   width: auto;
   background-color: darkgray; }
+
+.slide img {
+  height: 450px;
+  width: 450px; }
 
 .titulo {
   background-color: whitesmoke;
@@ -393,7 +395,13 @@ footer {
     padding: 10px; }
 
 .descripcion {
-  margin: 5px;
+  margin: 2px;
   flex-direction: column; }
 
 /*texto*/
+footer {
+  background-color: black;
+  color: beige;
+  display: inline;
+  float: right;
+  position: static; }
