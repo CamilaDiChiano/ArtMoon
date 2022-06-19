@@ -111,16 +111,23 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
+.titulo{
+    width: max-content;
+}
+
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
         padding: 10px;
         margin-top: 3px;
-        margin-left: 40px;
+        margin-left: 45px;
         align-content: center;
     }
 
-
+.ob{
+    width: 100%;
+}
 
     .ob h2 {
         text-align: center;
@@ -139,6 +146,19 @@ h2 {
         margin-left: 20px;
 
     }
+
+    .redes {
+        display: grid;
+        grid-row: none;
+        background-color: black;
+        color: beige;
+        height: 100px;
+        width: 450px;
+        justify-content: center;
+
+    }
+
+
 }
 
 
@@ -323,10 +343,10 @@ h2 {
 
 
 @media (max-width: 576px) {
-    .h2 {
+    .h5 {
         text-align: center;
         height: auto;
-        width: auto;
+        width: 455px;
     }
 
     .pagina {
@@ -352,14 +372,14 @@ h2 {
 
 
 .index {
-    background-image: url(../img/fondo.jpg)
+    background-image: url(../img/fd.jpg);
 }
 
 .h5 {
     text-align: center;
     font-size: large;
     padding: 10px;
-    color: rgb(73, 90, 151);
+    color: beige;
     background-color: black;
 
 }
@@ -548,6 +568,11 @@ h2 {
 
 }
 
+
+.obrasimg {
+    float: left;
+}
+
 .gridtodaslasobras {
     display: grid;
     grid-template-columns: auto auto;
@@ -555,13 +580,11 @@ h2 {
     margin: 5px;
 }
 
-
 .gridobran {
     margin: 10px;
     justify-content: left;
 
     .nocheestrellada {
-
         padding: 10px;
     }
 
@@ -678,12 +701,25 @@ h2 {
 /*texto*/
 
 
+// footer
 
-footer {
+.redes {
     background-color: black;
     color: beige;
-    display: inline;
-    float: right;
-    position: static;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.abajo {
+    text-align: center;
+    color: beige;
+    padding-top: 5px;
+}
+
+.art {
+    text-align: center;
 
 }
