@@ -112,9 +112,7 @@ h2 {
 
 @media (max-width: 576px) {
 
-.titulo{
-    width: max-content;
-}
+
 
     .biografiaa {
         height: 480px;
@@ -125,9 +123,9 @@ h2 {
         align-content: center;
     }
 
-.ob{
-    width: 100%;
-}
+    .ob {
+        width: 100%;
+    }
 
     .ob h2 {
         text-align: center;
@@ -143,7 +141,7 @@ h2 {
     .k {
         display: grid;
         grid-row: none;
-        margin-left: 20px;
+        margin-left: 10px;
 
     }
 
@@ -155,7 +153,10 @@ h2 {
         height: 100px;
         width: 450px;
         justify-content: center;
+    }
 
+    .imgob{
+        width: max-content;
     }
 
 
@@ -346,7 +347,7 @@ h2 {
     .h5 {
         text-align: center;
         height: auto;
-        width: 455px;
+        font-size: large;
     }
 
     .pagina {
@@ -551,21 +552,39 @@ h2 {
 
     }
 
-    .obrasimga {
+
+    .obrasimg {
+        align-items: center;
         justify-content: center;
         display: grid;
         grid-row: none;
-        margin-left: 20px;
+        margin-left: 10px;
+        height: 200px;
     }
 
-    .obrasimgb {
-        justify-content: center;
-        display: grid;
-        grid-row: none;
-        margin-left: 20px;
+    .descripcion {
+        display: inline-block;
+        padding-top: 20px;
     }
 
+    .pintor {
+        display: inline-block;
+        position: absolute;
+        padding-left: 10px;
+    }
 
+    .i {
+        text-align: center;
+        width: 450px;
+        margin: 5px;
+    }
+
+}
+
+.i {
+    justify-content: center;
+    text-align: center;
+    width: max-content;
 }
 
 
