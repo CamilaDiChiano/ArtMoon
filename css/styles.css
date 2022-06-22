@@ -11,7 +11,6 @@ body {
     font-family: sagittaria;
     src: url("../fonts/sagittaria FREE.ttf"); } }
 
-/* artista */
 header {
   background-color: whitesmoke;
   width: auto;
@@ -276,8 +275,8 @@ h2 {
     width: auto;
     background-color: darkgray; }
   .slide img {
-    height: 300px;
-    width: 300px; } }
+    height: min-content;
+    width: min-content; } }
 
 .gridseleccion {
   display: grid;
@@ -335,7 +334,7 @@ h2 {
     justify-content: center;
     display: grid;
     grid-row: none;
-    margin-left: 10px;
+    margin-left: 5px;
     height: 200px; }
   .descripcion {
     display: inline-block;
