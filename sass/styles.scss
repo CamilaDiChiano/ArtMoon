@@ -152,7 +152,7 @@ h2 {
         justify-content: center;
     }
 
-    .imgob{
+    .imgob {
         width: max-content;
     }
 
@@ -341,30 +341,26 @@ h2 {
 
 
 @media (max-width: 576px) {
-    .h5 {
+    .h4 {
         text-align: center;
         height: auto;
         font-size: large;
+
     }
 
-    .pagina {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
-        grid-column: 2/3;
+
+
+
+    .paginadeinicio {
+        display: none;
+        // grid-template-columns: auto auto;
+        // grid-template-rows: auto auto auto;
+        // grid-column: 2/3;
         float: right;
         text-align: center;
         font-size: 60px;
         padding: 100px;
     }
-
-    /* .moon {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        height: 20px;
-        margin: 80px;
-        transform: rotate(90deg)
-    } */
 
 }
 
@@ -450,7 +446,7 @@ h2 {
         width: min-content;
     }
 
-    
+
 
 }
 
@@ -504,34 +500,41 @@ h2 {
 
 @media (max-width: 576px) {
 
+
+
+    .menu {
+        font-size: large;
+        list-style: none;
+    }
+
     .gridobran {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
     .gridobram {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
     .gridobrau {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
     .gridobrag {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
     .gridobraeln {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
     .gridobragr {
@@ -543,13 +546,13 @@ h2 {
     .gridobraeb {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
     .gridobrac {
         display: flex;
         flex-direction: row;
-
+        margin: 1px;
     }
 
 
@@ -558,7 +561,6 @@ h2 {
         justify-content: center;
         display: grid;
         grid-row: none;
-        margin-left: 5px;
         height: 200px;
     }
 
@@ -570,7 +572,7 @@ h2 {
     .pintor {
         display: inline-block;
         position: absolute;
-        padding-left: 10px;
+        // padding-left: 10px;
     }
 
     .i {
@@ -582,7 +584,7 @@ h2 {
 }
 
 .i {
-    justify-content: center;
+    justify-content: left;
     text-align: center;
     width: max-content;
 }
@@ -595,29 +597,30 @@ h2 {
 .gridtodaslasobras {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto;
-    margin: 5px;
+    grid-template-rows: auto auto auto;
+
 }
 
+
+
+
 .gridobran {
-    margin: 10px;
     justify-content: left;
+
+    /*bloque*/
 
     .nocheestrellada {
         padding: 10px;
     }
 
-    /*bloque*/
+    // imagen
 
 }
 
 .gridobram {
-    margin: 10px;
     justify-content: left;
 
     .monalisa {
-        // height: 400px;
-        // width: 600px;
         padding: 10px;
     }
 
@@ -632,14 +635,9 @@ h2 {
 }
 
 .gridobrau {
-
-    margin: 10px;
-
     justify-content: left;
 
     .ultimacena {
-        // height: 400px;
-        // width: 800px;
         padding: 10px;
     }
 
@@ -647,12 +645,9 @@ h2 {
 }
 
 .gridobrag {
-    margin: 10px;
     justify-content: left;
 
     .guernica {
-        // height: 400px;
-        // width: 800px;
         padding: 10px;
     }
 
@@ -660,12 +655,9 @@ h2 {
 }
 
 .gridobraeln {
-    margin: 10px;
     justify-content: left;
 
     .elnacimiento {
-        // height: 400px;
-        // width: 800px;
         padding: 10px;
     }
 
@@ -673,12 +665,9 @@ h2 {
 }
 
 .gridobragr {
-    margin: 10px;
     justify-content: left;
 
     .grito {
-        // height: 400px;
-        // width: 800px;
         padding: 10px;
     }
 
@@ -686,12 +675,9 @@ h2 {
 }
 
 .gridobraeb {
-    margin: 10px;
     justify-content: left;
 
     .elbeso {
-        // height: 400px;
-        // width: 800px;
         padding: 10px;
     }
 
@@ -699,12 +685,9 @@ h2 {
 }
 
 .gridobrac {
-    margin: 10px;
     justify-content: left;
 
     .creacion {
-        // height: 400px;
-        // width: 1100px;
         padding: 10px;
     }
 
