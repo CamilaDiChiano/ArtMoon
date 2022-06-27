@@ -68,13 +68,14 @@ h2 {
   margin: 10px; }
 
 @media (max-width: 576px) {
+  .artista1vg {
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
     padding: 10px;
     margin-top: 3px;
-    margin-left: 45px;
-    align-content: center; }
+    float: left; }
   .ob {
     width: 100%; }
   .ob h2 {
@@ -82,10 +83,6 @@ h2 {
   .obravangogh {
     flex-direction: row;
     float: left; }
-  .k {
-    display: grid;
-    grid-row: none;
-    margin-left: 10px; }
   .redes {
     display: grid;
     grid-row: none;
@@ -93,9 +90,7 @@ h2 {
     color: beige;
     height: 100px;
     width: 450px;
-    justify-content: center; }
-  .imgob {
-    width: max-content; } }
+    justify-content: center; } }
 
 /* klimt */
 .obraklimt {
@@ -107,6 +102,8 @@ h2 {
     padding: 10px; }
 
 @media (max-width: 576px) {
+  .artista2gk {
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -128,6 +125,8 @@ h2 {
   margin: 10px; }
 
 @media (max-width: 576px) {
+  .artista3jb {
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -149,6 +148,8 @@ h2 {
   margin: 10px; }
 
 @media (max-width: 576px) {
+  .artista4pp {
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -170,6 +171,8 @@ h2 {
   margin: 10px; }
 
 @media (max-width: 576px) {
+  .artista5em {
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -191,6 +194,8 @@ h2 {
   margin: 10px; }
 
 @media (max-width: 576px) {
+  .artista6ld {
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -206,26 +211,16 @@ h2 {
 
 /*index*/
 @media (max-width: 576px) {
-  .h5 {
+  .h4 {
     text-align: center;
     height: auto;
     font-size: large; }
-  .pagina {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    grid-column: 2/3;
-    float: right;
+  .gridindex {
+    justify-content: center; }
+  .paginadeinicio {
     text-align: center;
     font-size: 60px;
-    padding: 100px; }
-  /* .moon {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        height: 20px;
-        margin: 80px;
-        transform: rotate(90deg)
-    } */ }
+    padding: 100px; } }
 
 .index {
   background-image: url(../img/fd.jpg); }
@@ -305,36 +300,49 @@ h2 {
 
 /*obras destacadas*/
 @media (max-width: 576px) {
+  .menu {
+    font-size: large;
+    list-style: none; }
+  .gridtodaslasobras {
+    justify-content: center; }
+  .obrasimg {
+    text-align: center; }
   .gridobran {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .gridobram {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .gridobrau {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .gridobrag {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .gridobraeln {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .gridobragr {
     display: flex;
     flex-direction: row; }
   .gridobraeb {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .gridobrac {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin: 1px; }
   .obrasimg {
     align-items: center;
     justify-content: center;
     display: grid;
     grid-row: none;
-    margin-left: 5px;
     height: 200px; }
   .descripcion {
     display: inline-block;
@@ -342,16 +350,19 @@ h2 {
   .pintor {
     display: inline-block;
     position: absolute;
-    padding-left: 10px; }
+    background-color: #838c8c;
+    height: max-content; }
   .i {
+    justify-content: center;
     text-align: center;
     width: 450px;
     margin: 5px; } }
 
 .i {
-  justify-content: center;
+  justify-content: left;
   text-align: center;
-  width: max-content; }
+  width: max-content;
+  background-color: #838c8c; }
 
 .obrasimg {
   float: left; }
@@ -359,18 +370,15 @@ h2 {
 .gridtodaslasobras {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto;
-  margin: 5px; }
+  grid-template-rows: auto auto auto; }
 
 .gridobran {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobran .nocheestrellada {
     padding: 10px; }
 
 .gridobram {
-  margin: 10px;
   justify-content: left;
   /*bloque*/
   /*imagen*/ }
@@ -380,42 +388,36 @@ h2 {
     float: left; }
 
 .gridobrau {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobrau .ultimacena {
     padding: 10px; }
 
 .gridobrag {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobrag .guernica {
     padding: 10px; }
 
 .gridobraeln {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobraeln .elnacimiento {
     padding: 10px; }
 
 .gridobragr {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobragr .grito {
     padding: 10px; }
 
 .gridobraeb {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobraeb .elbeso {
     padding: 10px; }
 
 .gridobrac {
-  margin: 10px;
   justify-content: left;
   /*bloque*/ }
   .gridobrac .creacion {
@@ -429,14 +431,22 @@ h2 {
 .redes {
   background-color: black;
   color: beige;
-  height: 100px;
+  height: 100%;
   width: 100%;
   justify-content: center; }
-
-.abajo {
-  text-align: center;
-  color: beige;
-  padding-top: 5px; }
-
-.art {
-  text-align: center; }
+  .redes .abajo {
+    text-align: center;
+    color: beige;
+    padding-top: 5px; }
+  .redes .ig {
+    text-align: center;
+    color: #446465;
+    padding-top: 5px; }
+  .redes .tw {
+    text-align: center;
+    padding-top: 5px;
+    color: #446465; }
+  .redes .arrobaig {
+    text-align: center; }
+  .redes .usertw {
+    text-align: center; }

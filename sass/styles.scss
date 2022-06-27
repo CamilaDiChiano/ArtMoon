@@ -94,6 +94,7 @@ h2 {
 
 // -------------------------------------------------------------------------------------------
 
+// artistas
 
 
 
@@ -109,15 +110,20 @@ h2 {
 
 @media (max-width: 576px) {
 
+    .artista1vg {
+        justify-content: center;
+    }
 
+    // .bio {
+    //     margin-left: 50px;
+    // }
 
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
         padding: 10px;
         margin-top: 3px;
-        margin-left: 45px;
-        align-content: center;
+        float: left;
     }
 
     .ob {
@@ -128,17 +134,20 @@ h2 {
         text-align: center;
     }
 
-
     .obravangogh {
         flex-direction: row;
         float: left;
 
-    }
+        // .imgob {
+        //     width: max-content;
+        // }
 
-    .k {
-        display: grid;
-        grid-row: none;
-        margin-left: 10px;
+        // .k {
+        //     display: grid;
+        //     grid-row: none;
+        //     margin-left: 10px;
+
+        // }
 
     }
 
@@ -152,14 +161,7 @@ h2 {
         justify-content: center;
     }
 
-    .imgob {
-        width: max-content;
-    }
-
-
 }
-
-
 
 
 /* klimt */
@@ -178,6 +180,12 @@ h2 {
 
 
 @media (max-width: 576px) {
+
+    .artista2gk {
+        justify-content: center;
+    }
+
+
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
@@ -202,6 +210,7 @@ h2 {
 
 /* basquiat */
 
+
 .obrabasquiat {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -210,6 +219,11 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
+    .artista3jb {
+        justify-content: center;
+    }
+
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
@@ -242,6 +256,12 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
+    .artista4pp {
+        justify-content: center;
+    }
+
+
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
@@ -277,6 +297,11 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
+    .artista5em {
+        justify-content: center;
+    }
+
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
@@ -311,6 +336,11 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
+    .artista6ld {
+        justify-content: center;
+    }
+
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
@@ -336,7 +366,6 @@ h2 {
 // ----------------------------------------------------------------------------------------------------------------------------
 
 
-
 /*index*/
 
 
@@ -348,15 +377,12 @@ h2 {
 
     }
 
-
+    .gridindex {
+        justify-content: center;
+    }
 
 
     .paginadeinicio {
-        display: none;
-        // grid-template-columns: auto auto;
-        // grid-template-rows: auto auto auto;
-        // grid-column: 2/3;
-        float: right;
         text-align: center;
         font-size: 60px;
         padding: 100px;
@@ -491,7 +517,6 @@ h2 {
 }
 
 
-
 // -------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -500,11 +525,17 @@ h2 {
 
 @media (max-width: 576px) {
 
-
-
     .menu {
         font-size: large;
         list-style: none;
+    }
+
+    .gridtodaslasobras {
+        justify-content: center;
+    }
+
+    .obrasimg {
+        text-align: center;
     }
 
     .gridobran {
@@ -572,10 +603,14 @@ h2 {
     .pintor {
         display: inline-block;
         position: absolute;
+        background-color: rgb(131, 140, 140);
+
+        height: max-content;
         // padding-left: 10px;
     }
 
     .i {
+        justify-content: center;
         text-align: center;
         width: 450px;
         margin: 5px;
@@ -587,6 +622,7 @@ h2 {
     justify-content: left;
     text-align: center;
     width: max-content;
+    background-color: rgb(131, 140, 140);
 }
 
 
@@ -701,27 +737,42 @@ h2 {
 }
 
 /*texto*/
-
+// ---------------------------------------------------------------------------------------------------------------------------------------
 
 // footer
 
 .redes {
     background-color: black;
     color: beige;
-    height: 100px;
+    height: 100%;
     width: 100%;
     justify-content: center;
 
+    .abajo {
+        text-align: center;
+        color: beige;
+        padding-top: 5px;
+    }
 
-}
+    .ig {
+        text-align: center;
+        color: rgb(68, 100, 101);
+        padding-top: 5px;
+    }
 
-.abajo {
-    text-align: center;
-    color: beige;
-    padding-top: 5px;
-}
+    .tw {
+        text-align: center;
+        padding-top: 5px;
+        color: rgb(68, 100, 101);
+    }
 
-.art {
-    text-align: center;
+
+    .arrobaig {
+        text-align: center;
+    }
+
+    .usertw {
+        text-align: center;
+    }
 
 }
