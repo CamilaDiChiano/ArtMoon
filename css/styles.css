@@ -63,9 +63,18 @@ h2 {
 /* van gogh */
 .obravangogh {
   display: grid;
-  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+.imgob {
+  float: left; }
+
+.nombreobras {
+  justify-content: left;
+  text-align: center;
+  width: max-content;
+  height: 10px;
+  background-color: #838c8c; }
 
 @media (max-width: 576px) {
   .artista1vg {
@@ -95,11 +104,13 @@ h2 {
 /* klimt */
 .obraklimt {
   display: grid;
-  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
   .obraklimt .k {
     padding: 10px; }
+
+.imgob {
+  float: left; }
 
 @media (max-width: 576px) {
   .artista2gk {
@@ -120,9 +131,11 @@ h2 {
 /* basquiat */
 .obrabasquiat {
   display: grid;
-  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+.imgob {
+  float: left; }
 
 @media (max-width: 576px) {
   .artista3jb {
@@ -143,9 +156,11 @@ h2 {
 /* picasso */
 .obrapicasso {
   display: grid;
-  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+.imgob {
+  float: left; }
 
 @media (max-width: 576px) {
   .artista4pp {
@@ -166,9 +181,11 @@ h2 {
 /* munch */
 .obramunch {
   display: grid;
-  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+.imgob {
+  float: left; }
 
 @media (max-width: 576px) {
   .artista5em {
@@ -189,9 +206,11 @@ h2 {
 /* da vinci */
 .obradavinci {
   display: grid;
-  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
   margin: 10px; }
+
+.imgob {
+  float: left; }
 
 @media (max-width: 576px) {
   .artista6ld {
@@ -223,7 +242,7 @@ h2 {
     padding: 100px; } }
 
 .index {
-  background-image: url(../img/fd.jpg); }
+  background-image: url(../img/pintura.jpg); }
 
 .h5 {
   text-align: center;
@@ -301,10 +320,7 @@ h2 {
 /*obras destacadas*/
 @media (max-width: 576px) {
   .menu {
-    font-size: large;
     list-style: none; }
-  .gridtodaslasobras {
-    justify-content: center; }
   .obrasimg {
     text-align: center; }
   .gridobran {
@@ -336,8 +352,7 @@ h2 {
     margin: 1px; }
   .gridobrac {
     display: flex;
-    flex-direction: row;
-    margin: 1px; }
+    flex-direction: row; }
   .obrasimg {
     align-items: center;
     justify-content: center;
@@ -345,18 +360,25 @@ h2 {
     grid-row: none;
     height: 200px; }
   .descripcion {
-    display: inline-block;
-    padding-top: 20px; }
+    display: inline-block; }
   .pintor {
     display: inline-block;
     position: absolute;
-    background-color: #838c8c;
+    color: #353535;
+    padding-left: 10px;
     height: max-content; }
   .i {
     justify-content: center;
     text-align: center;
     width: 450px;
     margin: 5px; } }
+
+.pintor {
+  display: inline-block;
+  position: absolute;
+  color: #353535;
+  padding: 10px;
+  height: max-content; }
 
 .i {
   justify-content: left;
@@ -419,12 +441,13 @@ h2 {
 
 .gridobrac {
   justify-content: left;
+  margin: 10px;
   /*bloque*/ }
   .gridobrac .creacion {
     padding: 10px; }
 
 .descripcion {
-  margin: 2px;
+  margin: 20px;
   flex-direction: column; }
 
 /*texto*/
