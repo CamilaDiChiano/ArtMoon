@@ -156,12 +156,12 @@ h2 {
             width: max-content;
         }
 
-        .k {
-            width: 400px;
-            padding-left: 20px;
-        }
     }
-
+    
+    .k {
+        width: 400px;
+        padding-left: 20px;
+    }
     .redes {
         display: grid;
         grid-row: none;
@@ -241,15 +241,15 @@ h2 {
             width: max-content;
         }
 
-        .k {
-            display: grid;
-            grid-row: none;
-            width: 400px;
-            padding-left: 20px;
-        }
-
+        
     }
 
+    .k {
+        display: grid;
+        grid-row: none;
+        width: 400px;
+        padding-left: 20px;
+    }
 }
 
 
@@ -307,13 +307,13 @@ h2 {
         flex-direction: row;
         float: left;
         
-        .k {
-            display: grid;
-            grid-row: none;
-    
-        }
     }
-
+    .k {
+        display: grid;
+        grid-row: none;
+    
+    }
+    
 }
 
 
@@ -367,13 +367,13 @@ h2 {
         flex-direction: row;
         float: left;
 
-        .k {
-            display: grid;
-            grid-row: none;
-    
-        }
     }
+    
+    .k {
+        display: grid;
+        grid-row: none;
 
+    }
 }
 
 
@@ -422,14 +422,14 @@ h2 {
     .obramunch {
         flex-direction: row;
         float: left;
-        .k {
-            display: grid;
-            grid-row: none;
+        
+    }
     
-        }
+    .k {
+        display: grid;
+        grid-row: none;
 
     }
-
 }
 
 
@@ -481,13 +481,13 @@ h2 {
         flex-direction: row;
         float: left;
         
-        .k {
-            display: grid;
-            grid-row: none;
-    
-        }
-
     }
+    
+            .k {
+                display: grid;
+                grid-row: none;
+        
+            }
 }
 
 

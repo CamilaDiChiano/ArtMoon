@@ -98,9 +98,9 @@ h2 {
     width: max-content; }
     .obravangogh .imgob {
       width: max-content; }
-    .obravangogh .k {
-      width: 400px;
-      padding-left: 20px; }
+  .k {
+    width: 400px;
+    padding-left: 20px; }
   .redes {
     display: grid;
     grid-row: none;
@@ -144,11 +144,11 @@ h2 {
     width: max-content; }
     .obraklimt .imgob {
       width: max-content; }
-    .obraklimt .k {
-      display: grid;
-      grid-row: none;
-      width: 400px;
-      padding-left: 20px; } }
+  .k {
+    display: grid;
+    grid-row: none;
+    width: 400px;
+    padding-left: 20px; } }
 
 /* basquiat */
 .obrabasquiat {
@@ -179,9 +179,9 @@ h2 {
   .obrabasquiat {
     flex-direction: row;
     float: left; }
-    .obrabasquiat .k {
-      display: grid;
-      grid-row: none; } }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /* picasso */
 .obrapicasso {
@@ -212,9 +212,9 @@ h2 {
   .obrapicasso {
     flex-direction: row;
     float: left; }
-    .obrapicasso .k {
-      display: grid;
-      grid-row: none; } }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /* munch */
 .obramunch {
@@ -245,9 +245,9 @@ h2 {
   .obramunch {
     flex-direction: row;
     float: left; }
-    .obramunch .k {
-      display: grid;
-      grid-row: none; } }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /* da vinci */
 .obradavinci {
@@ -278,9 +278,9 @@ h2 {
   .obradavinci {
     flex-direction: row;
     float: left; }
-    .obradavinci .k {
-      display: grid;
-      grid-row: none; } }
+  .k {
+    display: grid;
+    grid-row: none; } }
 
 /*index*/
 @media (max-width: 576px) {
