@@ -94,8 +94,7 @@ h2 {
     float: left; }
   .obravangogh {
     flex-direction: row;
-    float: left;
-    width: max-content; }
+    float: left; }
     .obravangogh .imgob {
       width: max-content; }
   .k {
@@ -130,8 +129,7 @@ h2 {
   header {
     width: max-content; }
   .artista2gk {
-    justify-content: center;
-    height: max-content; }
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -168,8 +166,7 @@ h2 {
   header {
     width: max-content; }
   .artista3jb {
-    justify-content: center;
-    width: max-content; }
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -201,8 +198,7 @@ h2 {
   header {
     width: max-content; }
   .artista4pp {
-    justify-content: center;
-    width: max-content; }
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -234,8 +230,7 @@ h2 {
   header {
     width: max-content; }
   .artista5em {
-    justify-content: center;
-    width: max-content; }
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
@@ -267,8 +262,7 @@ h2 {
   header {
     width: max-content; }
   .artista6ld {
-    justify-content: center;
-    width: max-content; }
+    justify-content: center; }
   .biografiaa {
     height: 480px;
     background-color: lightslategrey;
