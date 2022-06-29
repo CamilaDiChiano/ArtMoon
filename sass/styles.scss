@@ -134,7 +134,7 @@ h2 {
 
     .artista1vg {
         justify-content: center;
-        height: max-content;
+       
     }
 
     .biografiaa {
@@ -150,18 +150,19 @@ h2 {
     .obravangogh {
         flex-direction: row;
         float: left;
-       
+
 
         .imgob {
             width: max-content;
         }
 
     }
-    
+
     .k {
         width: 400px;
         padding-left: 20px;
     }
+
     .redes {
         display: grid;
         grid-row: none;
@@ -206,7 +207,7 @@ h2 {
         float: left;
         list-style: none;
         margin: 10px;
-        
+
     }
 
     nav {
@@ -220,7 +221,7 @@ h2 {
 
     .artista2gk {
         justify-content: center;
-       
+
     }
 
 
@@ -241,7 +242,7 @@ h2 {
             width: max-content;
         }
 
-        
+
     }
 
     .k {
@@ -292,7 +293,7 @@ h2 {
 
     .artista3jb {
         justify-content: center;
-       
+
     }
 
     .biografiaa {
@@ -306,14 +307,15 @@ h2 {
     .obrabasquiat {
         flex-direction: row;
         float: left;
-        
+
     }
+
     .k {
         display: grid;
         grid-row: none;
-    
+
     }
-    
+
 }
 
 
@@ -348,7 +350,7 @@ h2 {
 
     .artista4pp {
         justify-content: center;
-       
+
     }
 
 
@@ -368,7 +370,7 @@ h2 {
         float: left;
 
     }
-    
+
     .k {
         display: grid;
         grid-row: none;
@@ -408,7 +410,7 @@ h2 {
 
     .artista5em {
         justify-content: center;
-      
+
     }
 
     .biografiaa {
@@ -422,9 +424,9 @@ h2 {
     .obramunch {
         flex-direction: row;
         float: left;
-        
+
     }
-    
+
     .k {
         display: grid;
         grid-row: none;
@@ -466,7 +468,7 @@ h2 {
 
     .artista6ld {
         justify-content: center;
-      
+
     }
 
     .biografiaa {
@@ -480,14 +482,14 @@ h2 {
     .obradavinci {
         flex-direction: row;
         float: left;
-        
+
     }
-    
-            .k {
-                display: grid;
-                grid-row: none;
-        
-            }
+
+    .k {
+        display: grid;
+        grid-row: none;
+
+    }
 }
 
 
