@@ -25,14 +25,13 @@ header {
     text-align: center;
 }
 
-/* titulo*/
+/* titulo de los artistas*/
 
 
 .menu nav ul li {
     float: left;
     list-style: none;
     margin: 10px;
-
 }
 
 /* menu de la pagina*/
@@ -42,6 +41,7 @@ nav {
     color: white;
     border: 2px solid black;
     height: 50px;
+
 }
 
 /* fondo del menu de la pagina*/
@@ -62,18 +62,15 @@ img {
     background-color: lightslategrey;
     padding: 10px;
 
+    .biografia {
+        width: 300px;
+        height: 110px;
+        padding: 20px;
+    }
 }
 
-/*fondo de la biografia*/
+/*biografia*/
 
-
-.biografia {
-    width: 300px;
-    height: 110px;
-    padding: 20px;
-}
-
-/*texto de la biografia*/
 
 
 h2 {
@@ -88,7 +85,11 @@ h2 {
 /*titulo obras*/
 
 
+
 // -------------------------------------------------------------------------------------------
+
+
+
 
 // artistas
 
@@ -101,11 +102,11 @@ h2 {
     grid-template-rows: auto auto auto auto;
     margin: 10px;
 
+    .imgob {
+        float: left;
+    }
 }
 
-.imgob {
-    float: left;
-}
 
 .nombreobras {
     justify-content: left;
@@ -123,34 +124,42 @@ h2 {
         margin: 10px;
     }
 
-    .artista1vg {
-        justify-content: center;
+    nav {
+        width: max-content;
     }
 
-    // .bio {
-    //     margin-left: 50px;
-    // }
+    header {
+        width: max-content;
+    }
+
+    .artista1vg {
+        justify-content: center;
+        height: max-content;
+    }
 
     .biografiaa {
         height: 480px;
         background-color: lightslategrey;
         padding: 10px;
+        padding-left: 20px;
         margin-top: 3px;
         float: left;
     }
 
-    .ob {
-        width: 100%;
-    }
-
-    .ob h2 {
-        text-align: center;
-    }
 
     .obravangogh {
         flex-direction: row;
         float: left;
+        width: max-content;
 
+        .imgob {
+            width: max-content;
+        }
+
+        .k {
+            width: 400px;
+            padding-left: 20px;
+        }
     }
 
     .redes {
@@ -159,17 +168,23 @@ h2 {
         background-color: black;
         color: beige;
         height: 100px;
-        width: 450px;
+        width: max-content;
         justify-content: center;
     }
 
+
 }
+
+
+
+
+
+
 
 /* klimt */
 
 .obraklimt {
     display: grid;
-
     grid-template-rows: auto auto auto auto;
     margin: 10px;
 
@@ -178,12 +193,12 @@ h2 {
 
     }
 
+    .imgob {
+        float: left;
+    }
 
 }
 
-.imgob {
-    float: left;
-}
 
 @media (max-width: 576px) {
 
@@ -191,10 +206,21 @@ h2 {
         float: left;
         list-style: none;
         margin: 10px;
+        
     }
+
+    nav {
+        width: max-content;
+    }
+
+    header {
+        width: max-content;
+    }
+
 
     .artista2gk {
         justify-content: center;
+        height: max-content;
     }
 
 
@@ -209,29 +235,43 @@ h2 {
     .obraklimt {
         flex-direction: row;
         float: left;
+        width: max-content;
+
+        .imgob {
+            width: max-content;
+        }
+
+        .k {
+            display: grid;
+            grid-row: none;
+            width: 400px;
+            padding-left: 20px;
+        }
 
     }
 
-    .k {
-        display: grid;
-        grid-row: none;
-
-    }
 }
 
 
+
+
+
 /* basquiat */
+
+
+
 
 
 .obrabasquiat {
     display: grid;
     grid-template-rows: auto auto auto auto;
     margin: 10px;
+
+    .imgob {
+        float: left;
+    }
 }
 
-.imgob {
-    float: left;
-}
 
 @media (max-width: 576px) {
 
@@ -242,8 +282,17 @@ h2 {
         margin: 10px;
     }
 
+    nav {
+        width: max-content;
+    }
+
+    header {
+        width: max-content;
+    }
+
     .artista3jb {
         justify-content: center;
+        width: max-content;
     }
 
     .biografiaa {
@@ -257,14 +306,14 @@ h2 {
     .obrabasquiat {
         flex-direction: row;
         float: left;
-
+        
+        .k {
+            display: grid;
+            grid-row: none;
+    
+        }
     }
 
-    .k {
-        display: grid;
-        grid-row: none;
-
-    }
 }
 
 
@@ -274,11 +323,12 @@ h2 {
     display: grid;
     grid-template-rows: auto auto auto auto;
     margin: 10px;
+
+    .imgob {
+        float: left;
+    }
 }
 
-.imgob {
-    float: left;
-}
 
 @media (max-width: 576px) {
 
@@ -288,8 +338,17 @@ h2 {
         margin: 10px;
     }
 
+    nav {
+        width: max-content;
+    }
+
+    header {
+        width: max-content;
+    }
+
     .artista4pp {
         justify-content: center;
+        width: max-content;
     }
 
 
@@ -308,13 +367,13 @@ h2 {
         flex-direction: row;
         float: left;
 
+        .k {
+            display: grid;
+            grid-row: none;
+    
+        }
     }
 
-    .k {
-        display: grid;
-        grid-row: none;
-
-    }
 }
 
 
@@ -324,11 +383,12 @@ h2 {
     display: grid;
     grid-template-rows: auto auto auto auto;
     margin: 10px;
+
+    .imgob {
+        float: left;
+    }
 }
 
-.imgob {
-    float: left;
-}
 
 @media (max-width: 576px) {
 
@@ -338,8 +398,17 @@ h2 {
         margin: 10px;
     }
 
+    nav {
+        width: max-content;
+    }
+
+    header {
+        width: max-content;
+    }
+
     .artista5em {
         justify-content: center;
+        width: max-content;
     }
 
     .biografiaa {
@@ -353,14 +422,14 @@ h2 {
     .obramunch {
         flex-direction: row;
         float: left;
+        .k {
+            display: grid;
+            grid-row: none;
+    
+        }
 
     }
 
-    .k {
-        display: grid;
-        grid-row: none;
-
-    }
 }
 
 
@@ -371,11 +440,12 @@ h2 {
     display: grid;
     grid-template-rows: auto auto auto auto;
     margin: 10px;
+
+    .imgob {
+        float: left;
+    }
 }
 
-.imgob {
-    float: left;
-}
 
 @media (max-width: 576px) {
 
@@ -385,9 +455,18 @@ h2 {
         margin: 10px;
     }
 
+    nav {
+        width: max-content;
+    }
+
+    header {
+        width: max-content;
+    }
+
 
     .artista6ld {
         justify-content: center;
+        width: max-content;
     }
 
     .biografiaa {
@@ -401,12 +480,12 @@ h2 {
     .obradavinci {
         flex-direction: row;
         float: left;
-
-    }
-
-    .k {
-        display: grid;
-        grid-row: none;
+        
+        .k {
+            display: grid;
+            grid-row: none;
+    
+        }
 
     }
 }
@@ -423,7 +502,7 @@ h2 {
         text-align: center;
         height: auto;
         font-size: large;
-       padding-left: 15px;
+        padding-left: 15px;
 
     }
 
@@ -437,10 +516,10 @@ h2 {
 
 }
 
-.index{
+.index {
     background-image: url(../img/fondo);
-  max-width: auto;
-  max-height: auto;
+    max-width: auto;
+    max-height: auto;
 }
 
 
@@ -528,8 +607,8 @@ h2 {
 }
 
 .gridseleccion {
-     display: grid;
-     grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     height: 500px;
     width: auto;
