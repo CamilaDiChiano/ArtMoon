@@ -81,7 +81,7 @@ h2 {
   nav {
     width: max-content; }
   header {
-    width: max-content; }
+    width: 400px; }
   .artista1vg {
     justify-content: center; }
   .biografiaa {
@@ -105,7 +105,7 @@ h2 {
     background-color: black;
     color: beige;
     height: 100px;
-    width: max-content;
+    width: 400px;
     justify-content: center; } }
 
 /* klimt */
@@ -126,7 +126,7 @@ h2 {
   nav {
     width: max-content; }
   header {
-    width: max-content; }
+    width: 400px; }
   .artista2gk {
     justify-content: center; }
   .biografiaa {
@@ -163,7 +163,7 @@ h2 {
   nav {
     width: max-content; }
   header {
-    width: max-content; }
+    width: 400px; }
   .artista3jb {
     justify-content: center; }
   .biografiaa {
@@ -195,7 +195,7 @@ h2 {
   nav {
     width: max-content; }
   header {
-    width: max-content; }
+    width: 400px; }
   .artista4pp {
     justify-content: center; }
   .biografiaa {
@@ -227,7 +227,7 @@ h2 {
   nav {
     width: max-content; }
   header {
-    width: max-content; }
+    width: 400px; }
   .artista5em {
     justify-content: center; }
   .biografiaa {
@@ -259,7 +259,7 @@ h2 {
   nav {
     width: max-content; }
   header {
-    width: max-content; }
+    width: 400px; }
   .artista6ld {
     justify-content: center; }
   .biografiaa {
