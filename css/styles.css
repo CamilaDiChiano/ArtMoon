@@ -77,6 +77,10 @@ h2 {
   background-color: #838c8c; }
 
 @media (max-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .artista1vg {
     justify-content: center; }
   .biografiaa {
@@ -113,6 +117,10 @@ h2 {
   float: left; }
 
 @media (max-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .artista2gk {
     justify-content: center; }
   .biografiaa {
@@ -138,6 +146,10 @@ h2 {
   float: left; }
 
 @media (max-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .artista3jb {
     justify-content: center; }
   .biografiaa {
@@ -163,6 +175,10 @@ h2 {
   float: left; }
 
 @media (max-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .artista4pp {
     justify-content: center; }
   .biografiaa {
@@ -188,6 +204,10 @@ h2 {
   float: left; }
 
 @media (max-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .artista5em {
     justify-content: center; }
   .biografiaa {
@@ -213,6 +233,10 @@ h2 {
   float: left; }
 
 @media (max-width: 576px) {
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .artista6ld {
     justify-content: center; }
   .biografiaa {
@@ -242,7 +266,8 @@ h2 {
     padding: 100px; } }
 
 .index {
-  background-image: url(../img/pintura.jpg); }
+  height: 200px;
+  background: -webkit-linear-gradient(bottom right, #778899, #353535, black); }
 
 .h5 {
   text-align: center;
@@ -319,8 +344,10 @@ h2 {
 
 /*obras destacadas*/
 @media (max-width: 576px) {
-  .menu {
-    list-style: none; }
+  .menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px; }
   .obrasimg {
     text-align: center; }
   .gridobran {

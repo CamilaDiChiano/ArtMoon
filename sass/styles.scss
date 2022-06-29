@@ -88,10 +88,6 @@ h2 {
 /*titulo obras*/
 
 
-
-
-
-
 // -------------------------------------------------------------------------------------------
 
 // artistas
@@ -101,17 +97,17 @@ h2 {
 /* van gogh */
 
 .obravangogh {
-   display: grid;
+    display: grid;
     grid-template-rows: auto auto auto auto;
     margin: 10px;
 
 }
 
-.imgob{
+.imgob {
     float: left;
 }
 
-.nombreobras{
+.nombreobras {
     justify-content: left;
     text-align: center;
     width: max-content;
@@ -120,6 +116,12 @@ h2 {
 }
 
 @media (max-width: 576px) {
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+    }
 
     .artista1vg {
         justify-content: center;
@@ -163,7 +165,6 @@ h2 {
 
 }
 
-
 /* klimt */
 
 .obraklimt {
@@ -177,14 +178,20 @@ h2 {
 
     }
 
-    
+
 }
 
-.imgob{
+.imgob {
     float: left;
 }
 
 @media (max-width: 576px) {
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+    }
 
     .artista2gk {
         justify-content: center;
@@ -222,11 +229,18 @@ h2 {
     margin: 10px;
 }
 
-.imgob{
+.imgob {
     float: left;
 }
 
 @media (max-width: 576px) {
+
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+    }
 
     .artista3jb {
         justify-content: center;
@@ -262,11 +276,17 @@ h2 {
     margin: 10px;
 }
 
-.imgob{
+.imgob {
     float: left;
 }
 
 @media (max-width: 576px) {
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+    }
 
     .artista4pp {
         justify-content: center;
@@ -306,11 +326,17 @@ h2 {
     margin: 10px;
 }
 
-.imgob{
+.imgob {
     float: left;
 }
 
 @media (max-width: 576px) {
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+    }
 
     .artista5em {
         justify-content: center;
@@ -347,11 +373,18 @@ h2 {
     margin: 10px;
 }
 
-.imgob{
+.imgob {
     float: left;
 }
 
 @media (max-width: 576px) {
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+    }
+
 
     .artista6ld {
         justify-content: center;
@@ -408,9 +441,12 @@ h2 {
 
 
 .index {
-    background-image: url(../img/pintura.jpg);
-   
+    height:200px;
+    background: -webkit-linear-gradient(bottom right, #778899, rgb(53, 53, 53), black);  
 }
+
+
+
 
 .h5 {
     text-align: center;
@@ -542,8 +578,10 @@ h2 {
 
 @media (max-width: 576px) {
 
-    .menu {
+    .menu nav ul li {
+        float: left;
         list-style: none;
+        margin: 10px;
     }
 
     .obrasimg {
@@ -595,7 +633,7 @@ h2 {
     .gridobrac {
         display: flex;
         flex-direction: row;
-        
+
     }
 
 
@@ -629,7 +667,7 @@ h2 {
 
 }
 
-.pintor{
+.pintor {
     display: inline-block;
     position: absolute;
     color: rgb(53, 53, 53);
