@@ -441,8 +441,8 @@ h2 {
 
 
 .index {
-    height:200px;
-    background: -webkit-linear-gradient(bottom right, #778899, rgb(53, 53, 53), black);  
+    height: 200px;
+    background: -webkit-linear-gradient(bottom right, #778899, rgb(53, 53, 53), black);
 }
 
 
@@ -529,11 +529,9 @@ h2 {
 
 }
 
-
-
 .gridseleccion {
-    display: grid;
-    grid-template-columns: auto auto auto;
+     display: grid;
+     grid-template-columns: auto auto auto;
     justify-content: center;
     height: 500px;
     width: auto;
@@ -544,6 +542,7 @@ h2 {
     height: 450px;
     width: 450px;
 }
+
 
 
 .titulo {
