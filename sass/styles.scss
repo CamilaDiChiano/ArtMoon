@@ -423,15 +423,13 @@ h2 {
         text-align: center;
         height: auto;
         font-size: large;
+       padding-left: 15px;
 
     }
-
-    .gridindex {
-        justify-content: center;
-    }
-
 
     .paginadeinicio {
+        display: grid;
+        grid: none;
         text-align: center;
         font-size: 60px;
         padding: 100px;
@@ -439,10 +437,10 @@ h2 {
 
 }
 
-
-.index {
-    height: 200px;
-    background: -webkit-linear-gradient(bottom right, #778899, rgb(53, 53, 53), black);
+.index{
+    background-image: url(../img/fondo);
+  max-width: auto;
+  max-height: auto;
 }
 
 
@@ -521,8 +519,8 @@ h2 {
     }
 
     .slide img {
-        height: min-content;
-        width: min-content;
+        height: 200px;
+        width: 200px;
     }
 
 
