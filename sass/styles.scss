@@ -593,23 +593,36 @@ h2 {
     }
 
     .seleccioncuadrado {
-        justify-content: center;
-       display: none;
 
+        display: grid;
+        grid-column: auto;
+    }
 
+    .cuadrado1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cuadrado2 {
+
+        display: flex;
+        flex-direction: row;
     }
 
 
 }
 
+
+.selecciondeartistas {
+    background-color: #A9A9A9;
+}
+
 .seleccioncuadrado {
     justify-content: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
+
 }
 
 .cuadrado1 {
-    float: left;
     padding: 5px;
     width: 400px;
     height: 400px;
@@ -622,7 +635,6 @@ h2 {
 
 
 .cuadrado2 {
-    float: right;
     padding: 5px;
     width: 400px;
     height: 400px;
