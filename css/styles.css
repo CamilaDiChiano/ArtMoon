@@ -111,12 +111,19 @@ h2 {
 /* klimt */
 .obraklimt {
   display: grid;
-  grid-template-rows: auto auto auto auto;
-  margin: 10px; }
+  grid-template-rows: auto auto auto auto; }
   .obraklimt .k {
-    padding: 10px; }
+    padding: 10px;
+    float: right; }
   .obraklimt .imgob {
     float: left; }
+
+.descripcionobras {
+  background-color: gray;
+  color: black;
+  border: none;
+  width: 500px;
+  height: auto; }
 
 @media (max-width: 576px) {
   .menu nav ul li {

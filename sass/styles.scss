@@ -187,17 +187,25 @@ h2 {
 .obraklimt {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    margin: 10px;
+    // margin: 10px;
 
     .k {
         padding: 10px;
-
+float: right;
     }
 
     .imgob {
         float: left;
     }
 
+}
+
+.descripcionobras{
+    background-color: gray;
+    color: black;
+    border: none;
+    width: 500px;
+    height: auto;
 }
 
 
