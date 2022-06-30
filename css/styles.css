@@ -78,7 +78,7 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  nav {
+  nav ul li {
     width: max-content; }
   header {
     width: 400px; }
@@ -123,7 +123,7 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  nav {
+  nav ul li {
     width: max-content; }
   header {
     width: 400px; }
@@ -160,7 +160,7 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  nav {
+  nav ul li {
     width: max-content; }
   header {
     width: 400px; }
@@ -192,7 +192,7 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  nav {
+  nav ul li {
     width: max-content; }
   header {
     width: 400px; }
@@ -224,7 +224,7 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  nav {
+  nav ul li {
     width: max-content; }
   header {
     width: 400px; }
@@ -256,7 +256,7 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  nav {
+  nav ul li {
     width: max-content; }
   header {
     width: 400px; }
@@ -333,31 +333,37 @@ h2 {
     float: left;
     list-style: none;
     margin: 10px; }
-  .gridseleccion {
+  .seleccioncuadrado {
     justify-content: center;
-    height: auto;
-    width: auto;
-    background-color: darkgray; }
-  .slide img {
-    height: 200px;
-    width: 200px; } }
+    display: none; } }
 
-.gridseleccion {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.seleccioncuadrado {
   justify-content: center;
-  height: 500px;
-  width: auto;
-  background-color: darkgray; }
+  display: grid;
+  grid-template-columns: auto auto auto; }
 
-.slide img {
-  height: 450px;
-  width: 450px; }
+.cuadrado1 {
+  float: left;
+  padding: 5px;
+  width: 400px;
+  height: 400px; }
+  .cuadrado1 .cuadradoimg1 {
+    width: 400px;
+    height: 400px; }
+
+.cuadrado2 {
+  float: right;
+  padding: 5px;
+  width: 400px;
+  height: 400px; }
+  .cuadrado2 .cuadradoimg2 {
+    width: 400px;
+    height: 400px; }
 
 .titulo {
   background-color: whitesmoke;
   width: auto;
-  padding: 20px;
+  padding: 10px;
   text-align: center; }
 
 /*contacto*/
