@@ -40,7 +40,6 @@ img {
 .biografiaa {
   grid-column: 2/3;
   float: right;
-  height: 480px;
   background-color: lightslategrey;
   padding: 10px; }
   .biografiaa .biografia {
@@ -85,7 +84,6 @@ h2 {
   .artista1vg {
     justify-content: center; }
   .biografiaa {
-    height: 480px;
     background-color: lightslategrey;
     padding: 10px;
     padding-left: 20px;
@@ -96,6 +94,14 @@ h2 {
     float: left; }
     .obravangogh .imgob {
       width: max-content; }
+  .descripcionobras {
+    background-color: silver;
+    color: black;
+    border: none;
+    height: auto;
+    padding-left: 10px;
+    display: grid;
+    grid-row: none; }
   .k {
     width: 400px;
     padding-left: 20px; }
@@ -119,11 +125,11 @@ h2 {
     float: left; }
 
 .descripcionobras {
-  background-color: gray;
+  background-color: silver;
   color: black;
   border: none;
-  width: 500px;
-  height: auto; }
+  height: auto;
+  padding-left: 10px; }
 
 @media (max-width: 576px) {
   .menu nav ul li {
@@ -148,6 +154,14 @@ h2 {
     width: max-content; }
     .obraklimt .imgob {
       width: max-content; }
+  .descripcionobras {
+    background-color: silver;
+    color: black;
+    border: none;
+    height: auto;
+    padding-left: 10px;
+    display: grid;
+    grid-row: none; }
   .k {
     display: grid;
     grid-row: none;
