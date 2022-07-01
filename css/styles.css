@@ -102,6 +102,7 @@ h2 {
     color: black;
     border: none;
     height: auto;
+    width: min-content;
     padding-left: 10px;
     display: grid;
     grid-row: none; }
@@ -163,6 +164,7 @@ h2 {
     color: black;
     border: none;
     height: auto;
+    width: min-content;
     padding-left: 10px;
     display: grid;
     grid-row: none; }
@@ -189,6 +191,15 @@ h2 {
     width: 100%; }
   header {
     width: 100%; }
+  .descripcionobras {
+    background-color: silver;
+    color: black;
+    border: none;
+    height: auto;
+    width: min-content;
+    padding-left: 10px;
+    display: grid;
+    grid-row: none; }
   .artista4pp {
     justify-content: center; }
   .biografiaa {
@@ -222,6 +233,15 @@ h2 {
     width: 100%; }
   header {
     width: 100%; }
+  .descripcionobras {
+    background-color: silver;
+    color: black;
+    border: none;
+    height: auto;
+    width: min-content;
+    padding-left: 10px;
+    display: grid;
+    grid-row: none; }
   .artista5em {
     justify-content: center; }
   .biografiaa {
@@ -253,6 +273,15 @@ h2 {
     margin: 10px; }
   nav {
     width: 100%; }
+  .descripcionobras {
+    background-color: silver;
+    color: black;
+    border: none;
+    height: auto;
+    width: min-content;
+    padding-left: 10px;
+    display: grid;
+    grid-row: none; }
   header {
     width: 100%; }
   .artista6ld {
