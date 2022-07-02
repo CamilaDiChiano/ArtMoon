@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * {
   margin: 0px;
-  padding: opx; }
+  padding: 0px; }
 
 body {
   background-color: darkgray; }
@@ -74,6 +74,10 @@ h2 {
   height: auto;
   padding-left: 10px; }
 
+a {
+  text-decoration: none;
+  color: white; }
+
 @media (max-width: 576px) {
   .menu nav ul li {
     float: left;
@@ -83,6 +87,13 @@ h2 {
     width: 100%; }
   header {
     width: 100%; }
+  .artista5em {
+    justify-content: center; }
+  .obramunch {
+    flex-direction: row;
+    float: left; }
+  .artista4pp {
+    justify-content: center; }
   .artista2gk {
     justify-content: center; }
   .biografiaa {
@@ -92,12 +103,20 @@ h2 {
     margin-top: 3px;
     float: left;
     height: auto; }
+  .obrapicasso {
+    flex-direction: row;
+    float: left; }
   .obraklimt {
     flex-direction: row;
     float: left;
     width: max-content; }
     .obraklimt .imgob {
       width: max-content; }
+    .obraklimt .artista6ld {
+      justify-content: center; }
+    .obraklimt .obradavinci {
+      flex-direction: row;
+      float: left; }
   .descripcionobras {
     background-color: silver;
     color: black;
@@ -111,7 +130,81 @@ h2 {
     display: grid;
     grid-row: none;
     width: 400px;
-    padding-left: 20px; } }
+    padding-left: 20px; }
+  .h4 {
+    text-align: center;
+    height: auto;
+    font-size: large; }
+  .paginadeinicio .pagina {
+    text-align: center;
+    font-size: 60px; }
+  .seleccioncuadrado {
+    display: grid;
+    justify-content: center; }
+  .gridobran {
+    display: flex;
+    flex-direction: row;
+    margin: 1px; }
+  .gridobram {
+    display: flex;
+    flex-direction: row;
+    margin: 1px; }
+  .gridobrau {
+    display: flex;
+    flex-direction: row;
+    margin: 1px; }
+  .gridobrag {
+    display: flex;
+    flex-direction: row;
+    margin: 1px; }
+  .gridobraeln {
+    display: flex;
+    flex-direction: row;
+    margin: 1px; }
+  .gridobragr {
+    display: flex;
+    flex-direction: row; }
+  .gridobraeb {
+    display: flex;
+    flex-direction: row; }
+  .gridobrac {
+    display: flex;
+    flex-direction: row; }
+  .obrasimg {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-row: none;
+    height: 200px; }
+  .descripcion {
+    display: inline-block; }
+  .pintor {
+    display: inline-block;
+    position: absolute;
+    color: #353535;
+    padding-left: 10px;
+    height: max-content; }
+  .i {
+    justify-content: center;
+    text-align: center; } }
+
+@media (min-width: 576px) {
+  .menu nav {
+    display: flex;
+    justify-content: center; }
+  .seleccioncuadrado {
+    display: grid;
+    justify-content: center; }
+  .cuadrado1 {
+    display: flex;
+    flex-direction: row; }
+  .cuadrado2 {
+    display: flex;
+    flex-direction: row; }
+  .redes {
+    display: flex;
+    flex-direction: column; } }
 
 /* picasso */
 .obrapicasso {
@@ -121,40 +214,6 @@ h2 {
   .obrapicasso .imgob {
     float: left; }
 
-@media (max-width: 576px) {
-  .menu nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px; }
-  nav {
-    width: 100%; }
-  header {
-    width: 100%; }
-  .descripcionobras {
-    background-color: silver;
-    color: black;
-    border: none;
-    height: auto;
-    width: min-content;
-    padding-left: 10px;
-    display: grid;
-    grid-row: none; }
-  .artista4pp {
-    justify-content: center; }
-  .biografiaa {
-    height: 480px;
-    background-color: lightslategrey;
-    padding: 10px;
-    margin-top: 3px;
-    float: left;
-    height: auto; }
-  .obrapicasso {
-    flex-direction: row;
-    float: left; }
-  .k {
-    display: grid;
-    grid-row: none; } }
-
 /* munch */
 .obramunch {
   display: grid;
@@ -162,40 +221,6 @@ h2 {
   margin: 10px; }
   .obramunch .imgob {
     float: left; }
-
-@media (max-width: 576px) {
-  .menu nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px; }
-  nav {
-    width: 100%; }
-  header {
-    width: 100%; }
-  .descripcionobras {
-    background-color: silver;
-    color: black;
-    border: none;
-    height: auto;
-    width: min-content;
-    padding-left: 10px;
-    display: grid;
-    grid-row: none; }
-  .artista5em {
-    justify-content: center; }
-  .biografiaa {
-    height: 480px;
-    background-color: lightslategrey;
-    padding: 10px;
-    margin-top: 3px;
-    float: left;
-    height: auto; }
-  .obramunch {
-    flex-direction: row;
-    float: left; }
-  .k {
-    display: grid;
-    grid-row: none; } }
 
 /* da vinci */
 .obradavinci {
@@ -205,51 +230,7 @@ h2 {
   .obradavinci .imgob {
     float: left; }
 
-@media (max-width: 576px) {
-  .menu nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px; }
-  nav {
-    width: 100%; }
-  .descripcionobras {
-    background-color: silver;
-    color: black;
-    border: none;
-    height: auto;
-    width: min-content;
-    padding-left: 10px;
-    display: grid;
-    grid-row: none; }
-  header {
-    width: 100%; }
-  .artista6ld {
-    justify-content: center; }
-  .biografiaa {
-    height: 480px;
-    background-color: lightslategrey;
-    padding: 10px;
-    margin-top: 3px;
-    float: left;
-    height: auto; }
-  .obradavinci {
-    flex-direction: row;
-    float: left; }
-  .k {
-    display: grid;
-    grid-row: none; } }
-
 /*index*/
-@media (max-width: 576px) {
-  .h4 {
-    text-align: center;
-    height: auto;
-    font-size: large; }
-  .paginadeinicio .pagina {
-    text-align: center;
-    font-size: 60px;
-    padding-left: 10px; } }
-
 .index {
   background-color: #172121; }
 
@@ -269,8 +250,7 @@ h2 {
 
 /*bloque del titulo*/
 .pagina {
-  grid-column: 4/5;
-  float: right;
+  grid-column: 1/5;
   text-align: center;
   font-size: 60px;
   padding: 100px; }
@@ -286,20 +266,9 @@ h2 {
 
 /*menu*/
 /*seleccion de artista*/
-@media (min-width: 576px) {
-  .menu nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px; }
-  .seleccioncuadrado {
-    display: grid;
-    grid-column: auto; }
-  .cuadrado1 {
-    display: flex;
-    flex-direction: row; }
-  .cuadrado2 {
-    display: flex;
-    flex-direction: row; } }
+nav ul li a {
+  color: white;
+  text-decoration: none; }
 
 .selecciondeartistas {
   background-color: #A9A9A9; }
@@ -330,6 +299,17 @@ h2 {
   text-align: center; }
 
 /*contacto*/
+.contactoinput {
+  padding: 5px;
+  border-radius: 2px solid black;
+  margin: 5px; }
+
+.enviar {
+  margin: 15px; }
+
+.boton {
+  padding: 5px; }
+
 .descripcion {
   padding: 5px; }
 
@@ -337,62 +317,9 @@ h2 {
   padding: 10px; }
 
 /*obras destacadas*/
-@media (max-width: 576px) {
-  .menu nav ul li {
-    float: left;
-    list-style: none;
-    margin: 10px; }
-  .obrasimg {
-    text-align: center; }
-  .gridobran {
-    display: flex;
-    flex-direction: row;
-    margin: 1px; }
-  .gridobram {
-    display: flex;
-    flex-direction: row;
-    margin: 1px; }
-  .gridobrau {
-    display: flex;
-    flex-direction: row;
-    margin: 1px; }
-  .gridobrag {
-    display: flex;
-    flex-direction: row;
-    margin: 1px; }
-  .gridobraeln {
-    display: flex;
-    flex-direction: row;
-    margin: 1px; }
-  .gridobragr {
-    display: flex;
-    flex-direction: row; }
-  .gridobraeb {
-    display: flex;
-    flex-direction: row;
-    margin: 1px; }
-  .gridobrac {
-    display: flex;
-    flex-direction: row; }
-  .obrasimg {
-    align-items: center;
-    justify-content: center;
-    display: grid;
-    grid-row: none;
-    height: 200px; }
-  .descripcion {
-    display: inline-block; }
-  .pintor {
-    display: inline-block;
-    position: absolute;
-    color: #353535;
-    padding-left: 10px;
-    height: max-content; }
-  .i {
-    justify-content: center;
-    text-align: center;
-    width: 450px;
-    margin: 5px; } }
+a {
+  text-decoration: none;
+  color: white; }
 
 .pintor {
   display: inline-block;
@@ -402,9 +329,9 @@ h2 {
   height: max-content; }
 
 .i {
-  justify-content: left;
+  justify-content: center;
   text-align: center;
-  width: max-content;
+  width: 100%vh;
   background-color: #838c8c; }
 
 .obrasimg {
@@ -419,14 +346,14 @@ h2 {
   justify-content: left;
   /*bloque*/ }
   .gridobran .nocheestrellada {
-    padding: 10px; }
+    margin: 16px; }
 
 .gridobram {
   justify-content: left;
   /*bloque*/
   /*imagen*/ }
   .gridobram .monalisa {
-    padding: 10px; }
+    margin: 16px; }
   .gridobram .imgmonalisa {
     float: left; }
 
@@ -434,50 +361,51 @@ h2 {
   justify-content: left;
   /*bloque*/ }
   .gridobrau .ultimacena {
-    padding: 10px; }
+    margin: 16px; }
 
 .gridobrag {
   justify-content: left;
   /*bloque*/ }
   .gridobrag .guernica {
-    padding: 10px; }
+    margin: 16px; }
 
 .gridobraeln {
   justify-content: left;
   /*bloque*/ }
   .gridobraeln .elnacimiento {
-    padding: 10px; }
+    margin: 16px; }
 
 .gridobragr {
   justify-content: left;
   /*bloque*/ }
   .gridobragr .grito {
-    padding: 10px; }
+    margin: 16px; }
 
 .gridobraeb {
   justify-content: left;
   /*bloque*/ }
   .gridobraeb .elbeso {
-    padding: 10px; }
+    margin: 16px; }
 
 .gridobrac {
   justify-content: left;
   margin: 10px;
   /*bloque*/ }
   .gridobrac .creacion {
-    padding: 10px; }
+    margin: 16px; }
 
 .descripcion {
-  margin: 20px;
+  padding-top: 30px;
   flex-direction: column; }
 
 /*texto*/
 .redes {
   background-color: black;
   color: beige;
-  height: 100%;
   width: 100%;
-  justify-content: center; }
+  justify-content: center;
+  display: flex;
+  flex-direction: column; }
   .redes .abajo {
     text-align: center;
     color: beige;
