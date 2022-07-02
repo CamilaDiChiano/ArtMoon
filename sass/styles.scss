@@ -19,7 +19,7 @@ header {
     background-color: whitesmoke;
     width: 100%;
     height: 50px;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -74,7 +74,7 @@ img {
 h2 {
     grid-column: 1/3;
     background-color: lightslategrey;
-    width: 200px;
+    margin: revert;
     width: 400px;
     padding: 20px;
     text-align: left;
@@ -83,8 +83,9 @@ h2 {
 /*titulo obras*/
 
 
-
-
+.ul{
+    padding: 0;
+}
 
 
 
