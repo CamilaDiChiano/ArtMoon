@@ -1,0 +1,766 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+
+    background-color: darkgray;
+
+    @font-face {
+        font-family: sagittaria;
+        src: url("../fonts/sagittaria\ FREE.ttf");
+    }
+
+}
+
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* titulo de los artistas*/
+
+
+.menu nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+/* menu de la pagina*/
+
+nav {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    height: 50px;
+
+}
+
+/* fondo del menu de la pagina*/
+
+
+img {
+    height: 300px;
+    padding: 10px;
+}
+
+/* tamaño de imagenes*/
+
+
+.biografiaa {
+    grid-column: 2/3;
+    float: right;
+
+    background-color: lightslategrey;
+    padding: 10px;
+
+    .biografia {
+        width: 300px;
+        height: 110px;
+        padding: 20px;
+    }
+}
+
+/*biografia*/
+
+
+
+h2 {
+    grid-column: 1/3;
+    background-color: lightslategrey;
+    margin: revert;
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+}
+
+/*titulo obras*/
+
+
+.ul{
+    padding: 0;
+}
+
+
+
+
+
+
+// -------------------------------------------------------------------------------------------
+
+
+
+
+// artistas
+
+
+
+
+
+
+/* klimt */
+
+.obraklimt {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+
+
+    .k {
+        padding: 10px;
+        float: right;
+    }
+
+    .imgob {
+        float: left;
+    }
+
+}
+
+.descripcionobras {
+    background-color: rgb(192, 192, 192);
+    color: black;
+    border: none;
+    height: auto;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 576px) {
+
+    .menu nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .artista5em {
+        justify-content: center;
+
+    }
+
+    .obramunch {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .artista4pp {
+        justify-content: center;
+
+    }
+
+    .artista2gk {
+        justify-content: center;
+
+    }
+
+
+    .biografiaa {
+        height: 480px;
+        background-color: lightslategrey;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
+        height: auto;
+    }
+
+    .obrapicasso {
+        flex-direction: row;
+        float: left;
+
+    }
+
+    .obraklimt {
+        flex-direction: row;
+        float: left;
+        width: max-content;
+
+        .imgob {
+            width: max-content;
+        }
+
+
+        .artista6ld {
+            justify-content: center;
+
+        }
+
+
+
+        .obradavinci {
+            flex-direction: row;
+            float: left;
+
+        }
+    }
+
+    .descripcionobras {
+        background-color: rgb(192, 192, 192);
+        color: black;
+        border: none;
+        height: auto;
+        width: min-content;
+        padding-left: 10px;
+        display: grid;
+        grid-row: none;
+    }
+
+    .k {
+        display: grid;
+        grid-row: none;
+        width: 400px;
+        padding-left: 20px;
+    }
+
+    .h4 {
+        text-align: center;
+        height: auto;
+        font-size: large;
+
+
+    }
+
+    .paginadeinicio .pagina {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .seleccioncuadrado {
+        display: grid;
+        justify-content: center;
+
+    }
+
+
+    .gridobran {
+        display: flex;
+        flex-direction: row;
+        margin: 1px;
+    }
+
+    .gridobram {
+        display: flex;
+        flex-direction: row;
+        margin: 1px;
+    }
+
+    .gridobrau {
+        display: flex;
+        flex-direction: row;
+        margin: 1px;
+    }
+
+    .gridobrag {
+        display: flex;
+        flex-direction: row;
+        margin: 1px;
+    }
+
+    .gridobraeln {
+        display: flex;
+        flex-direction: row;
+        margin: 1px;
+    }
+
+    .gridobragr {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .gridobraeb {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gridobrac {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+    .obrasimg {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-row: none;
+        height: 200px;
+    }
+
+    .descripcion {
+        display: inline-block;
+    }
+
+    .pintor {
+        display: inline-block;
+        position: absolute;
+        color: rgb(53, 53, 53);
+        padding-left: 10px;
+        height: max-content;
+    }
+
+    .i {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 576px) {
+
+    .menu nav {
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .seleccioncuadrado {
+        display: grid;
+        justify-content: center;
+        // display: grid;
+        // grid-column: auto;
+    }
+
+    .cuadrado1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cuadrado2 {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* picasso */
+
+
+.obrapicasso {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin: 10px;
+
+    .imgob {
+        float: left;
+    }
+}
+
+
+/* munch */
+
+.obramunch {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin: 10px;
+
+    .imgob {
+        float: left;
+    }
+}
+
+
+/* da vinci */
+
+.obradavinci {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin: 10px;
+
+    .imgob {
+        float: left;
+    }
+}
+
+
+// ----------------------------------------------------------------------------------------------------------------------------
+
+
+/*index*/
+
+.index {
+    background-color: rgb(23, 33, 33);
+}
+
+.h5 {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    color: beige;
+    background-color: black;
+
+}
+
+.paginadeinicio {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 5px;
+}
+
+/*bloque del titulo*/
+
+
+.pagina {
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 60px;
+    padding: 100px;
+}
+
+/*titulo*/
+
+
+
+.menudenavegacion ul li {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+/*menu*/
+
+
+
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+/*seleccion de artista*/
+
+
+nav {
+    ul {
+        li {
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+
+
+.selecciondeartistas {
+    background-color: #A9A9A9;
+}
+
+
+.seleccioncuadrado {
+    justify-content: center;
+
+}
+
+.cuadrado1 {
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+
+    .cuadradoimg1 {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.cuadrado2 {
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+
+    .cuadradoimg2 {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+.titulo {
+    background-color: whitesmoke;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+// -----------------------------------------------------------------------------------------------------------------------------
+
+
+
+/*contacto*/
+
+.contactoinput {
+    padding: 5px;
+    border-radius: 2px solid black;
+    margin: 5px;
+}
+
+.enviar {
+    margin: 15px;
+}
+
+.boton {
+    padding: 5px;
+}
+
+.descripcion {
+    padding: 5px;
+}
+
+.indicacion {
+    padding: 10px;
+}
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+
+
+/*obras destacadas*/
+
+
+@media (max-width: 576px) {}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pintor {
+    display: inline-block;
+    position: absolute;
+    color: rgb(53, 53, 53);
+    padding: 10px;
+    height: max-content;
+
+}
+
+
+.i {
+    justify-content: center;
+    text-align: center;
+    width: 100%vh;
+    background-color: rgb(131, 140, 140);
+}
+
+
+.obrasimg {
+    float: left;
+}
+
+.gridtodaslasobras {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+
+.gridobran {
+    justify-content: left;
+
+    /*bloque*/
+
+    .nocheestrellada {
+        margin: 16px;
+    }
+
+    // imagen
+
+}
+
+.gridobram {
+    justify-content: left;
+
+    .monalisa {
+        margin: 16px;
+    }
+
+    /*bloque*/
+
+
+    .imgmonalisa {
+        float: left;
+    }
+
+    /*imagen*/
+}
+
+.gridobrau {
+    justify-content: left;
+
+    .ultimacena {
+        margin: 16px;
+    }
+
+    /*bloque*/
+}
+
+.gridobrag {
+    justify-content: left;
+
+    .guernica {
+        margin: 16px;
+    }
+
+    /*bloque*/
+}
+
+.gridobraeln {
+    justify-content: left;
+
+    .elnacimiento {
+        margin: 16px;
+    }
+
+    /*bloque*/
+}
+
+.gridobragr {
+    justify-content: left;
+
+    .grito {
+        margin: 16px;
+    }
+
+    /*bloque*/
+}
+
+.gridobraeb {
+    justify-content: left;
+
+    .elbeso {
+        margin: 16px;
+    }
+
+    /*bloque*/
+}
+
+.gridobrac {
+    justify-content: left;
+    margin: 10px;
+
+    .creacion {
+        margin: 16px;
+    }
+
+    /*bloque*/
+}
+
+
+.descripcion {
+
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+/*texto*/
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// footer
+
+.redes {
+    background-color: black;
+    color: beige;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    .abajo {
+        text-align: center;
+        color: beige;
+        padding-top: 5px;
+    }
+
+    .ig {
+        text-align: center;
+        color: rgb(68, 100, 101);
+        padding-top: 5px;
+    }
+
+    .tw {
+        text-align: center;
+        padding-top: 5px;
+        color: rgb(68, 100, 101);
+    }
+
+
+    .arrobaig {
+        text-align: center;
+    }
+
+    .usertw {
+        text-align: center;
+    }
+
+}
